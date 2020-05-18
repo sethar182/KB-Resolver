@@ -7,8 +7,10 @@ form holds true for every model of a knowledge base. This is done using
 the resolution rule.
 
 To run the program, I use python in the command line. A valid example is:
-	py main3.py task1.in
-	py main3.py anyInputFileInFolder.in
+```
+py main3.py task1.in
+py main3.py anyInputFileInFolder.in
+```
 The input file is a simple text file that specifies the knowledge base
 in the first N-1 lines, and the statement to be verified on the Nth line.
 The program will output each resolution to the command line in the CNF
